@@ -1,0 +1,116 @@
+body {
+  background: url(../Images/1_Homepage/home7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+.form-group {
+  margin-top: 10px;
+}
+.form-container {
+  width: 400px;
+  height: 650px;
+  background: rgba(255, 255, 255, 0.25);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 3%;
+}
+.contact-title {
+  font-size: 2.375rem;
+  color: #fff;
+  text-align: center;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+textarea {
+  padding: 0.9rem;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 90%;
+  margin-left: 15px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #11999e;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  width: 90%;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-size: 15px;
+  color: #0f4c75;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.passwordForm {
+  position: relative;
+}
+.passwordForm i {
+  position: absolute;
+  top: 13px;
+  right: 40px;
+  visibility: hidden;
+}
+#xMarkIcon {
+  color: #ff0032;
+}
+#exclamationIcon {
+  color: #fed049;
+}
+#checkIcon {
+  color: #03c988;
+}
+.paragraphError {
+  margin-top: 5px;
+  margin-left: 15px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.paswordErrorDiv p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.paswordErrorDiv {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5px;
+}
+.errorColors {
+  display: flex;
+  visibility: hidden;
+}
+.red {
+  background-color: #ff0032;
+}
+.yellow {
+  background-color: #fed049;
+}
+.green {
+  background-color: #38e54d;
+}
+.divSize {
+  height: 5px;
+  width: 50px;
+}
