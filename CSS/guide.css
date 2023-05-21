@@ -1,0 +1,135 @@
+/* SECTION 1 */
+.section-1 {
+  display: flex;
+  height: auto !important;
+}
+.s1-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 9.375rem;
+}
+.s1-img img {
+  width: 25rem;
+  height: 28.125rem;
+}
+.s1-txt-description {
+  margin: 6.25rem 9.375rem 0 3.125rem;
+}
+.s1-subtext {
+  margin-bottom: 1.875rem;
+  color: #11999e;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.s1-title {
+  margin: 0.625rem 0 3.125rem 0;
+  font-weight: 500;
+  font-size: 2.5rem;
+  color: #0f4c75;
+}
+.s1-parag {
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: #a1a1a1;
+}
+.s1-parag a button {
+  background-color: #11999e;
+  color: #fff;
+  padding: 0.313rem 0.625rem;
+  border-radius: 1rem;
+  border: 0;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.s1-parag a button:hover {
+  background-color: #0f4c75;
+  font-size: larger;
+}
+/* SECTION 1 END */
+
+/* SECTION 2 */
+.section-2 {
+  height: auto !important;
+}
+.h1-s3-title {
+  font-size: 2.375rem;
+  color: #0f4c75;
+  text-align: center;
+  padding: 6.25rem 18.75rem 0;
+}
+.card {
+  width: 20rem;
+  -webkit-box-shadow: 3px 3px 10px 3px #0f4c75;
+  -moz-box-shadow: 3px 3px 10px 3px #0f4c75;
+  box-shadow: 3px 3px 10px 3px #0f4c75;
+  border-radius: 1.25rem;
+}
+.card:hover {
+  -webkit-box-shadow: 3px 3px 10px 3px #11999e;
+  -moz-box-shadow: 3px 3px 10px 3px #11999e;
+  box-shadow: 3px 3px 10px 3px #11999e;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 3.125rem 0;
+}
+.card-container .card {
+  margin: 1.25rem;
+}
+.card img {
+  height: 18.75rem;
+  object-fit: cover;
+  border-top-left-radius: 1.25rem;
+  border-top-right-radius: 1.25rem;
+}
+.card-body .card-text {
+  font-size: 0.75rem;
+}
+.card-body a {
+  background-color: #0f4c75;
+  color: #fff;
+}
+.card-title {
+  color: #0f4c75;
+}
+.card-body a:hover {
+  background-color: #11999e;
+  color: #fff;
+  font-weight: 500;
+}
+/* SECTION 2 END */
+
+/* Search bar */
+.search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem 0 2rem;
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  margin: auto;
+}
+.search-input {
+  font-family: inherit;
+  font-size: inherit;
+  background-color: #f4f2f2;
+  border: none;
+  color: #646464;
+  padding: 0.7rem 1rem;
+  border-radius: 30px;
+  width: 12em;
+  transition: all ease-in-out 0.5s;
+  margin-right: -2rem;
+}
+.btn i {
+  color: #11999e;
+  font-size: 1.25rem;
+}
