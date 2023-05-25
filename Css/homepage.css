@@ -250,12 +250,13 @@
   height: 50px;
   line-height: 50px;
   text-align: center;
-  background-color: #0f4c75;
+  background-color: #11999e;
   color: #fff;
   border-radius: 50%;
   font-size: 1.25rem;
   text-decoration: none;
+  z-index: 1000;
 }
 #back-to-top:hover {
-  background-color: #11999e;
+  background-color: #0f4c75;
 }
